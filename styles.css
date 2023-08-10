@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100;200;300;400;500;600&display=swap');
+
+
+
+:root{
+    --light-red1: #f30000;
+    --light-red2: #de0000;
+    --red1: #cf0000;
+    --red2: #b70000;
+    --dark-red: #a00000;
+
+    --white: #ffffff;
+    --grey1: #f4f4f4;
+    --grey2: #d6d6d6;
+    --dark-grey: #a9a9a9;
+    --black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: REM;
+}
+
+body {
+    background-color: var(--grey1);
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+header {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+
+header span.title , header i{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+header .pro{
+   
+   color: var(--red1);
+}
+
+header .bx{
+    color: var(--light-red2);
+    display: inline-block;
+    font-size: 2rem;
+}
+
+header span.slogan {
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--dark-grey);
+}
+
+.navbar .nav_sections {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.navbar {
+    background-image: linear-gradient(var(--light-red1), var(--dark-red));
+    
+ }
+
+ .navbar .nav_sections a{
+    color: var(--grey1);
+ }
+
+ .navbar .nav_sections a:hover{
+    color: var(--grey);
+    transition: ease all 0.4s;
+    
+ }
+
+ .home_intro p{
+    position: relative;
+    padding: 25px;
+    margin-top: 75px;
+    z-index: 500;
+ }
+
+ .home_intro {
+    display: flex;
+ }
+
+ .home_pic {
+    display: flex-end;
+    margin-top: 25px;
+    margin-right: 10px;
+    max-width: 55%;
+    max-height: 55%;
+    z-index: -100;
+    border-radius: 10%;
+}
+
+ .home_intro .home_title{
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 25px;
+    z-index: 500;
+ }
+
+ .container .home_intro a{
+    position: absolute;
+    margin-top: 255px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 175px;
+    text-align: center;
+    text-shadow: #a9a9a9;
+    color: var(--grey1);
+    width: 125px;
+    height: 30px;
+    font-size: 1rem;
+    background-image: linear-gradient(var(--light-red2), var(--light-red1));
+    z-index: 500;
+ }
+
+ .container .home_intro a:hover{
+    color: var(--black);
+    transition: ease all 0.4s;
+    border-color: #000000;
+    border-width: 20px;
+ }
+
+ .container .button{
+    font-family: REM;
+    font-weight: 400;
+ }
+
+ footer{
+    padding-top: 50px;
+    text-align: center;
+ }
+
+ 
